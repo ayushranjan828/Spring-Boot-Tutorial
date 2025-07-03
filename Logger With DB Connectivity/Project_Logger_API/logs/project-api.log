@@ -1,0 +1,75 @@
+2025-07-03T11:38:36.950+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] c.e.l.P.ProjectLoggerApiApplication      : Starting ProjectLoggerApiApplication using Java 21.0.7 with PID 8632 (E:\Assingment\Java\Spring Tutorial\Project_Logger_API\target\classes started by ayush in E:\Assingment\Java\Spring Tutorial\Project_Logger_API)
+2025-07-03T11:38:36.951+05:30 DEBUG 8632 --- [Project_Logger_API] [restartedMain] c.e.l.P.ProjectLoggerApiApplication      : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-03T11:38:36.953+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] c.e.l.P.ProjectLoggerApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-07-03T11:38:37.011+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03T11:38:37.013+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03T11:38:37.781+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03T11:38:37.856+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-07-03T11:38:38.414+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-03T11:38:38.433+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-03T11:38:38.433+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03T11:38:38.487+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-03T11:38:38.488+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1475 ms
+2025-07-03T11:38:38.698+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03T11:38:38.749+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03T11:38:38.789+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-03T11:38:39.054+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03T11:38:39.082+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-03T11:38:39.257+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f0f332d
+2025-07-03T11:38:39.259+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-03T11:38:39.297+05:30  WARN 8632 --- [Project_Logger_API] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03T11:38:39.299+05:30  WARN 8632 --- [Project_Logger_API] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-03T11:38:39.319+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03T11:38:39.916+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03T11:38:39.975+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03T11:38:40.220+05:30  WARN 8632 --- [Project_Logger_API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03T11:38:40.554+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/LoggerAPI?useSSL=false&serverTimezone=UTC'
+2025-07-03T11:38:40.628+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-03T11:38:40.667+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-03T11:38:40.677+05:30  INFO 8632 --- [Project_Logger_API] [restartedMain] c.e.l.P.ProjectLoggerApiApplication      : Started ProjectLoggerApiApplication in 4.338 seconds (process running for 4.729)
+2025-07-03T11:38:46.988+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-03T11:38:46.989+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-03T11:38:46.990+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-03T11:38:47.072+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-2] c.e.l.P.Service.UserService              : Fetching user with ID: 2
+2025-07-03T11:38:47.117+05:30 DEBUG 8632 --- [Project_Logger_API] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-07-03T11:38:52.683+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-3] c.e.l.P.Service.UserService              : Fetching user with ID: 1
+2025-07-03T11:38:52.688+05:30 DEBUG 8632 --- [Project_Logger_API] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-07-03T11:39:02.853+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-5] c.e.l.P.Service.UserService              : Fetching all users.
+2025-07-03T11:39:03.044+05:30 DEBUG 8632 --- [Project_Logger_API] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2025-07-03T11:39:24.098+05:30  INFO 8632 --- [Project_Logger_API] [http-nio-8080-exec-6] c.e.l.P.Service.UserService              : Saving user: mahi@example.com
+2025-07-03T11:39:24.125+05:30 DEBUG 8632 --- [Project_Logger_API] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (email, name) 
+    values
+        (?, ?)
